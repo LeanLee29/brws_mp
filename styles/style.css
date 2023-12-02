@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Marmelad&family=PT+Serif+Caption&display=swap');
+
+html {
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	overflow-x: hidden;
+}
+
+html,
+body,
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	max-width: 750px;
+	background-color: aliceblue;
+	margin: 0 auto;
+	overflow-x: hidden;
+	height: auto;
+}
+.header {
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-around;
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.border_header {
+	border-right: 2px solid purple;
+	padding-right: 4px;
+}
+
+.header_link {
+	display: flex;
+}
+
+.header_logo {
+	font-size: 24px;
+	padding-left: 4px;
+	border-left: 2px solid purple;
+	height: 29px;
+}
+.header_logo_image {
+	width: 24px;
+	padding-right: 8px;
+	padding-top: 2px;
+}
+.vk {
+	width: 28px;
+	padding-right: 15px;
+}
+.content {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.main_photo {
+	width: 300px;
+	height: 300px;
+	border-radius: 500px;
+	box-shadow: purple 2px 3px 4px;
+}
+
+.about_me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 90px;
+	font-family: 'PT Serif Caption', serif;
+	text-align: center;
+	font-size: 20px;
+	gap: 12px;
+	font-weight: 400;
+}
+.about_me__text {
+	padding-top: 30px;
+	text-align: center;
+}
+.services_text {
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 43px;
+	margin-bottom: 30px;
+}
+
+.price_table {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding-left: 20px;
+}
+
+.price_text {
+	font-family: 'PT Serif Caption', serif;
+
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.price_tag {
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: purple;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+
+.loyalty_programm {
+	padding-top: 50px;
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 43px;
+	text-align: center;
+}
+
+.loyalty {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.loyalty_text {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.loyalty_price_tag {
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 23px;
+	color: purple;
+	padding-top: 15px;
+	padding-right: 30px;
+}
+
+.gallery {
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+.gallery_content {
+	padding-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	justify-content: center;
+	gap: 15px;
+}
+
+.gallery_border {
+	border-bottom: 3px solid purple;
+	height: auto;
+	padding-bottom: 30px;
+}
+.gallery_images {
+	width: 225px;
+	height: 225px;
+}
